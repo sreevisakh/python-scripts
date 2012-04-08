@@ -44,7 +44,7 @@ def lrange(num1, num2 = None, step = 1):
         num1 += step
         
 def nextDivisor(number,divisor):
-    '''Gets the next smaller divisor for the given number which less than given divisor'''
+'''Gets the next smaller divisor for the given number which less than given divisor'''
     if divisor==1 : return None
     dividend = float(number)/divisor
     if dividend - float(int(dividend))==0.0:
